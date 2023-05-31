@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st 
-import tensorflow as tf
 
 # Load the knn model from file
 model = pickle.load(open('klasifikasi.pkl', 'rb'))
